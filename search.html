@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+         <link rel="stylesheet" href="css/main.css">
+         <meta charset="UTF-8">
+         <title>Super Search</title>
+    </head>
+      <body>
+             <h1>Super Search</h1>
+             <form action="https://www.google.com/search">
+               <div>
+                  <label for="query">Site: </label> 
+                  <input type="text" id="site" name="as_q" placeholder="Enter your search query" size="25">
+                        </div> 
+                  <div>
+            <label for="site">Site: </label> 
+            <input type="text" id="site" name="as_sitesearch" placeholder="Enter the site you wish to search" size="50">
+                  </div>
+                  <div>
+                     <label for="images">Images only</label> 
+                     <input type="checkbox" id="images" name="tbm" value="isch">
+                           </div>
+                           <div>
+                                 <p> Filetype:
+                                 <select name="as_filetype">
+                                    <option value="pdf"></option>
+                                    <option value="jpg">Compressed</option>
+                                    <option value="png">Uncompressed</option>
+                                    <option value="gif">Animations (maybe)</option>
+                                 </select>
+                                 </p>
+                              </div>
+                              <div>
+                                 <form>
+                                    <fieldset>
+                                     <legend>Please select your preferred contact method:</legend>
+                                      <div>
+                                        <input type="radio" id="contactChoice1" name="contact" value="email" />
+                                        <label for="contactChoice1">Email</label>
+                                  
+                                        <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                                        <label for="contactChoice2">Phone</label>
+                                  
+                                        <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                                        <label for="contactChoice3">Mail</label>
+                                      </div>
+                                      <div>
+                                        <button type="submit">Submit</button>
+                                      </div>
+                                    </fieldset>
+                                  </form>
+                              </div>
+                              
+                              <div>
+                              <input type="submit" value="SEARCH">
+                                    </div>
+                                    
+             </form>
+   </body>
+   <p><a href="index.html"><img src="images/Button.png" aly="Home Button"></a></p>
+
+</html>
