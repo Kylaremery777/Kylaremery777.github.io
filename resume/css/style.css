@@ -1,0 +1,53 @@
+
+body
+{
+    background-color:rgb(84, 150, 127);
+}
+h1
+{
+ text-align: center;
+ color:brown;
+ font-size: 38pt;
+}
+section h2
+{
+    margin: 5px;
+    font-size: 28pt;
+}
+section
+{
+    border: 3px black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+ul
+{
+ font-size: 18pt;
+}
+.date
+{
+    color:yellow;
+    display: block; 
+    float:right;
+    border-bottom: 1px solid yellow;
+    
+}
+nav a
+{
+    font-size: 20pt;
+    font-size: bold;
+    color:blueviolet
+}
+#experiance li
+{
+    border-bottom: 1px solid yellow;
+}
+#education h3 
+{
+    border-bottom: 1px solid yellow;
+}
+img
+{
+  border-radius: 50%;
+}
